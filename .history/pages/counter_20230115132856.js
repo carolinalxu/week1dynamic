@@ -1,5 +1,5 @@
+import counterStyles from '../styles/counter.module.css'
 
-import homeStyles from '../styles/home.module.css'
 import { useEffect, useState } from "react"
 import { useSearchParams } from 'next/navigation'
 import { useRouter } from 'next/router'
