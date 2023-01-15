@@ -1,4 +1,31 @@
+.heart{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: relative;
+	transform: rotate(45deg);
+}
 
+.heart:before, .heart:after{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	content: '';
+	position: absolute;
+	border-radius: 50%;
+}
+
+.heart::before{
+	bottom: 0px;
+	left: -100px;
+
+}
+
+.heart::after{
+	bottom: 0px;
+	top: -100px;
+
+} 
 
 .main {
   display: flex;
@@ -18,33 +45,6 @@
   align-items: center;
   gap: 20px;
   color: white;
-  border: solid;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-
-
-
-}
-
-.firstInput {
-  display: flex;
-  gap: 40px;
-  border-radius: 20px;
-
-}
-
-.secondInput {
-  display: flex;
-  gap: 40px;
-
-}
-.submitButton {
-  border-radius: 60px;
-  width: 100%;
-  color: aqua;
-
 
 
 }

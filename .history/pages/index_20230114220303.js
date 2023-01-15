@@ -39,14 +39,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-
-
-    <main className={styles.main}>
+      <main className={styles.main}>
+      <div id="heart"></div>
 
       
       <div className={styles.input}>
-        <div className={styles.firstInput}>
         <label>First name:</label>
         <input
           type="text"
@@ -56,9 +53,7 @@ export default function Home() {
           title="The first letter should be uppercase"
           onChange={(e => setFormData({...formData, firstName: e.target.value}))}
         />
-      </div>
 
-      <div className={styles.secondInput}>
         <label>Username:</label>
         <input
           type="text"
@@ -70,11 +65,8 @@ export default function Home() {
           onChange={(e => setFormData({...formData, username: e.target.value}))}
         />
       </div>
-    </div>
 
-      <button type="submit" onClick={() => CheckLogin()} className={styles.sumbitButton}>Submit</button>
-
-  
+        <button type="submit" onClick={() => CheckLogin()}>Submit</button>
       </main>
     </>
   )

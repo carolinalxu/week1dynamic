@@ -8,48 +8,7 @@
   padding: 6rem;
   gap: 20px;
   min-height: 100vh;
-  background-color: #ffb9cd;
-  
 }
-
-.input {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  color: white;
-  border: solid;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-
-
-
-}
-
-.firstInput {
-  display: flex;
-  gap: 40px;
-  border-radius: 20px;
-
-}
-
-.secondInput {
-  display: flex;
-  gap: 40px;
-
-}
-.submitButton {
-  border-radius: 60px;
-  width: 100%;
-  color: aqua;
-
-
-
-}
-
-
 
 .description {
   display: inherit;
@@ -73,7 +32,7 @@
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
+  background-color: rgba(var(--background-colour))
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }

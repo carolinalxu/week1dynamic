@@ -46,7 +46,7 @@ export default function Home() {
 
       
       <div className={styles.input}>
-        <div className={styles.firstInput}>
+        <div className={styles.firstinput}>
         <label>First name:</label>
         <input
           type="text"
@@ -58,7 +58,7 @@ export default function Home() {
         />
       </div>
 
-      <div className={styles.secondInput}>
+      <div className={styles.secondinput}>
         <label>Username:</label>
         <input
           type="text"
@@ -72,9 +72,7 @@ export default function Home() {
       </div>
     </div>
 
-      <button type="submit" onClick={() => CheckLogin()} className={styles.sumbitButton}>Submit</button>
-
-  
+        <button type="submit" onClick={() => CheckLogin()}>Submit</button>
       </main>
     </>
   )

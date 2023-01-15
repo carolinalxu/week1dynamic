@@ -28,10 +28,11 @@
 
 }
 
-.firstInput {
+.firstInput [type=text] {
   display: flex;
   gap: 40px;
-  border-radius: 20px;
+  color: red;
+
 
 }
 

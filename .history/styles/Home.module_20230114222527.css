@@ -19,33 +19,14 @@
   gap: 20px;
   color: white;
   border: solid;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-
 
 
 }
 
 .firstInput {
   display: flex;
-  gap: 40px;
-  border-radius: 20px;
-
-}
-
-.secondInput {
-  display: flex;
-  gap: 40px;
-
-}
-.submitButton {
-  border-radius: 60px;
-  width: 100%;
-  color: aqua;
-
-
+  flex-direction: column;
+  padding: 5%;
 
 }
 

@@ -72,7 +72,10 @@ export default function Home() {
       </div>
     </div>
 
-      <button type="submit" onClick={() => CheckLogin()} className={styles.sumbitButton}>Submit</button>
+
+    <div className={styles.sumbitButton}>
+      <button type="submit" onClick={() => CheckLogin()}>Submit</button>
+    </div>
 
   
       </main>

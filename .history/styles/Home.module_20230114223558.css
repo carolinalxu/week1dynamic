@@ -31,10 +31,10 @@
 .firstInput {
   display: flex;
   gap: 40px;
-  border-radius: 20px;
+  background-color: red;
+
 
 }
-
 .secondInput {
   display: flex;
   gap: 40px;

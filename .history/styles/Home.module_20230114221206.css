@@ -1,4 +1,34 @@
-
+.heart-shape{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: rgba(250,184,66, 1);
+}
+.heart-shape:before,
+.heart-shape:after{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  content: '';
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(250,184,66, 1);
+}
+.heart-shape:before{
+  bottom: 0px;
+  left: -100px;
+}
+.heart-shape:after{
+  top: -100px;
+  right: 0px;
+}
 
 .main {
   display: flex;
@@ -18,33 +48,6 @@
   align-items: center;
   gap: 20px;
   color: white;
-  border: solid;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-
-
-
-}
-
-.firstInput {
-  display: flex;
-  gap: 40px;
-  border-radius: 20px;
-
-}
-
-.secondInput {
-  display: flex;
-  gap: 40px;
-
-}
-.submitButton {
-  border-radius: 60px;
-  width: 100%;
-  color: aqua;
-
 
 
 }

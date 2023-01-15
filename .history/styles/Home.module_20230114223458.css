@@ -31,13 +31,11 @@
 .firstInput {
   display: flex;
   gap: 40px;
-  border-radius: 20px;
+
 
 }
-
 .secondInput {
   display: flex;
-  gap: 40px;
 
 }
 .submitButton {

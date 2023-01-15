@@ -43,10 +43,11 @@ export default function Home() {
 
 
     <main className={styles.main}>
+    
+     <img src="public/heart-picture.png" alt="silver heart"></img>
 
       
       <div className={styles.input}>
-        <div className={styles.firstInput}>
         <label>First name:</label>
         <input
           type="text"
@@ -56,9 +57,7 @@ export default function Home() {
           title="The first letter should be uppercase"
           onChange={(e => setFormData({...formData, firstName: e.target.value}))}
         />
-      </div>
 
-      <div className={styles.secondInput}>
         <label>Username:</label>
         <input
           type="text"
@@ -69,12 +68,9 @@ export default function Home() {
           maxLength="10"
           onChange={(e => setFormData({...formData, username: e.target.value}))}
         />
-      </div>
     </div>
 
-      <button type="submit" onClick={() => CheckLogin()} className={styles.sumbitButton}>Submit</button>
-
-  
+        <button type="submit" onClick={() => CheckLogin()}>Submit</button>
       </main>
     </>
   )

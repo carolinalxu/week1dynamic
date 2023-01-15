@@ -1,55 +1,12 @@
-
-
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 6rem;
-  gap: 20px;
+  margin: 10%;
   min-height: 100vh;
-  background-color: #ffb9cd;
-  
 }
-
-.input {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  color: white;
-  border: solid;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-
-
-
-}
-
-.firstInput {
-  display: flex;
-  gap: 40px;
-  border-radius: 20px;
-
-}
-
-.secondInput {
-  display: flex;
-  gap: 40px;
-
-}
-.submitButton {
-  border-radius: 60px;
-  width: 100%;
-  color: aqua;
-
-
-
-}
-
-
 
 .description {
   display: inherit;

@@ -30,23 +30,12 @@
 
 .firstInput {
   display: flex;
-  gap: 40px;
-  border-radius: 20px;
+
 
 }
 
-.secondInput {
-  display: flex;
-  gap: 40px;
-
-}
 .submitButton {
-  border-radius: 60px;
-  width: 100%;
-  color: aqua;
-
-
-
+  padding-left: 5%;
 }
 
 
