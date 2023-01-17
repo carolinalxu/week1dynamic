@@ -48,7 +48,7 @@ export default function Home() {
       <div className={styles.input}>
         <div className={styles.firstInput}>
         <label>First name:</label>
-        <input className={styles.inputBar}
+        <input
           type="text"
           id="first"
           name="first"
@@ -60,7 +60,7 @@ export default function Home() {
 
       <div className={styles.secondInput}>
         <label>Username:</label>
-        <input className={styles.inputBar}
+        <input
           type="text"
           id="username"
           name="username"

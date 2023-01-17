@@ -1,0 +1,33 @@
+.main {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+background-color: rgb(255, 255, 255);
+height: 100%;
+margin-top: 20%;
+}
+
+.counterIntro {
+    display: flex;
+    gap: 20px;
+    border: 2px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter {
+    margin-top: 10%;
+    gap: 10%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.incrementButton {
+    border-radius: 60px;
+    width: 400%;
+    padding-top: 20px;
+
+
+}

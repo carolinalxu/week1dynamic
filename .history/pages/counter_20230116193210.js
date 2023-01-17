@@ -23,8 +23,8 @@ export default function Counter() {
         </div>
 
         <div className={counterStyles.counter}>
-            <button className={counterStyles.incrementButton} onClick={() => setNumber(number + 1)} >Increment</button>
-            <button className={counterStyles.decrementButton} onClick={() => setNumber(number - 1)} >Decrement</button>
+            <button onClick={() => setNumber(number + 1)} >Increment</button>
+            <button onClick={() => setNumber(number - 1)} >Decrement</button>
 
         </div>
     </main>

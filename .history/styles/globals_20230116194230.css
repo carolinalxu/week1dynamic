@@ -86,9 +86,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(255, 232, 236);
-}
+
 
 a {
   color: inherit;

@@ -1,0 +1,19 @@
+.main {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+background-color: rgb(255, 255, 255);
+height: 100%;
+margin-top: 20%;
+}
+
+.counterIntro {
+    display: flex;
+    gap: 20px;
+    border: 2px;
+}
+
+.counter {
+    margin-top: ;
+}
